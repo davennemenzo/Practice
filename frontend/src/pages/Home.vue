@@ -1,8 +1,13 @@
 <script setup>
+import MainLayout from "@/layout/MainLayout.vue";
 </script>
 
 <template>
+  <MainLayout>
     <div>
-        <h1>Gwapo</h1>
+        <div>
+            
+        </div>
     </div>
+  </MainLayout>
 </template>
