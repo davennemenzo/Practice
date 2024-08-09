@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class=" p-2 shadow-md ">
+  <nav class=" p-2 shadow-md h-100">
     <div class="container mx-auto flex  items-center justify-between">
       <div class="text-3xl font-semibold pa-3 ml-3 flex  ">
         <a href="#" class="text-teal-500  font-bold"
@@ -19,8 +19,14 @@
       </div>
 
       <div class="flex gap-4">
-        <a href="" class=" text-lg">Register</a>
-        <a href="" class=" text-lg">Register</a>
+        <a href="" class=" text-lg">Sign-up</a>
+        <router-link to="/login"><v-btn
+              rounded="xs"
+              min-width="130"
+              class="bg-blue-lighten-2 text-grey-lighten-5 text-capitalize"
+              >Login</v-btn
+            ></router-link>
+        
       </div>
     </div>
   </nav>
