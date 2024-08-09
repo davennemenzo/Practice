@@ -19,7 +19,7 @@
       </div>
 
       <div class="flex gap-4">
-        <a href="" class=" text-lg">Sign-up</a>
+        <router-link to="/signup" class=" text-lg">Signup</router-link>
         <router-link to="/login"><v-btn
               rounded="xs"
               min-width="130"

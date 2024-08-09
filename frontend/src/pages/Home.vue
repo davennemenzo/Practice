@@ -4,8 +4,8 @@ import MainLayout from "@/layout/MainLayout.vue";
 
 <template>
   <MainLayout>
-    <v-row class="mb-3">
-      <v-col class="pt-16 pl-16 ">
+    <v-col class="mb-3 d-flex ">
+      <v-col class=" pl-16 ">
         <v-card height="550" elevation="0" class="mt-9">
           <v-card-title class="font-weight-bold text-h2 pl-16 pt-16"
             >TUDLO</v-card-title
@@ -29,7 +29,7 @@ import MainLayout from "@/layout/MainLayout.vue";
           </div>
         </v-card>
       </v-col>
-      <v-col class="pt-16 pr-16">
+      <v-col class=" pr-16">
         <v-card height="550" elevation="0" class="mt-9">
           <v-img
             :width="590"
@@ -39,7 +39,7 @@ import MainLayout from "@/layout/MainLayout.vue";
           ></v-img>
         </v-card>
       </v-col>
-    </v-row>
+    </v-col>
   </MainLayout>
 </template>
 
